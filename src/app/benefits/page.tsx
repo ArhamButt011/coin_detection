@@ -1,11 +1,7 @@
 import React from 'react'
 
 const BenefitsPage = () => {
-  return (
-    <div>
-      BenefitsPage
-    </div>
-  )
+  return <div className=""></div>
 }
 
 export default BenefitsPage

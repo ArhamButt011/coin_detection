@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         raleway: ['var(--font-raleway)'],
+        prociono: ['Prociono'],
       },
       colors: {
         primary: '#FFFFFF99',
