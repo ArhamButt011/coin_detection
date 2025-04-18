@@ -9,7 +9,7 @@ async function createAdmin() {
 
   const db = client.db('snap_and_trace');
 
-  const existing = await db.collection('users').findOne({ email: 'admin@gmail.com' });
+  const existing = await db.collection('users').findOne({ email: 'numan.codes@gmail.com' });
   if (existing) {
     console.log('Admin already exists');
     return;
@@ -19,7 +19,7 @@ async function createAdmin() {
 
   const admin = {
     username: 'admin',
-    email: 'admin@gmail.com',
+    email: 'numan.codes@gmail.com',
     password: hashedPassword,
     role: 'admin',
   };
